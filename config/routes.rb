@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
+  root 'auth#index'
+  get '/login' => 'auth#index'
+  post '/login' => 'auth#create'
+  get '/logout' => 'auth#destroy'
+
   resources :tasks
   resources :users
   # The priority is based upon order of creation: first created -> highest priority.
