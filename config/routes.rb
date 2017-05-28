@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   get '/login' => 'auth#index'
   post '/login' => 'auth#create'
   get '/logout' => 'auth#destroy'
+  get '/register' => 'users#new'
 
   resources :tasks
   resources :users
