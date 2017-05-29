@@ -1,28 +1,15 @@
-== README
+=== Simple Task Management App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This Rails project is a simple task management app built using <tt>Rails 4.2.6</tt> & <tt>SQLite3</tt>:
 
-Things you may want to cover:
+* There are User
+* Each User could have many Tasks
+* User can Create/Update/Delete the Tasks
 
-* Ruby version
+== How to Setup
 
-* System dependencies
+1. `bundle install`
+2. `rake db:migrate`
+3. `rails s`
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+After that you could open the app on <tt>http://localhost:3000</tt>
