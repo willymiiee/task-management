@@ -8,8 +8,8 @@ This Rails project is a simple task management app built using <tt>Rails 4.2.6</
 
 == How to Setup
 
-1. `bundle install`
-2. `rake db:migrate`
-3. `rails s`
+1. <tt>bundle install</tt>
+2. <tt>rake db:migrate</tt>
+3. <tt>rails s</tt>
 
 After that you could open the app on <tt>http://localhost:3000</tt>
